@@ -16,6 +16,7 @@ spring:
     database: ${sky.redis.database}
     host: ${sky.redis.host}
     port: ${sky.redis.port}
+    password: ${sky.redis.password}
 
 mybatis:
   #mapper配置文件
@@ -49,20 +50,20 @@ sky:
     user-secret-key: ${sky.jwt.key}
 
 
-  wechat:
-    appid: ${sky.wechat.appid}
-    secret: ${sky.wechat.secret}
-    mchid: ${sky.dev.wechat.mchid}
-    mchSerialNo: ${sky.dev.wechat.mchSerialNo}
-    privateKeyFilePath: ${sky.dev.wechat.privateKeyFilePath}
-    apiV3Key: ${sky.wechat.apiVersion3Key}
-    weChatPayCertFilePath: ${sky.dev.wechat.weChatPayCertFilePath}
-    notifyUrl: ${sky.dev.wechat.notifyUr1}
-    refundNotifyUrl: ${sky.dev.wechat.refundNotifyUr1}
-
-  alioss:
-    endpoint: ${sky.alioss.endpoint}
-    access-key-id: ${sky.alioss.access-key-id}
-    access-key-secret: ${sky.alioss.access-key-secret}
-    bucket-name: ${sky.alioss.bucket-name}
+#  wechat:
+#    appid: ${sky.wechat.appid}
+#    secret: ${sky.wechat.secret}
+#    mchid: ${sky.dev.wechat.mchid}
+#    mchSerialNo: ${sky.dev.wechat.mchSerialNo}
+#    privateKeyFilePath: ${sky.dev.wechat.privateKeyFilePath}
+#    apiV3Key: ${sky.wechat.apiVersion3Key}
+#    weChatPayCertFilePath: ${sky.dev.wechat.weChatPayCertFilePath}
+#    notifyUrl: ${sky.dev.wechat.notifyUr1}
+#    refundNotifyUrl: ${sky.dev.wechat.refundNotifyUr1}
+#
+#  alioss:
+#    endpoint: ${sky.alioss.endpoint}
+#    access-key-id: ${sky.alioss.access-key-id}
+#    access-key-secret: ${sky.alioss.access-key-secret}
+#    bucket-name: ${sky.alioss.bucket-name}
 

@@ -12,3 +12,10 @@ sky:
     access-key-id: yourAccessKeyId
     access-key-secret: yourAccessKeySecret 
     bucket-name: yourBucketName
+
+  redis:
+    database: 15
+    host: 1.117.75.216
+    port: 6379
+    password: xzh123456
+
