@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 @Data
+// 使用builder注解，可以EmployeeLoginVO.builder()
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
