@@ -6,7 +6,7 @@
 
 #### Result
 
-#### 所有出现的注解解释
+#### 所有出现的注解解释 @DateTimeFormat，时间类LocalDate
 
 #### 配置属性类 怎么读取yaml，porperity 源码 横线转驼峰命名
 
